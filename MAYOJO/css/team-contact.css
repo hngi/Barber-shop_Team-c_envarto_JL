@@ -1,0 +1,42 @@
+#team {
+    background: rgba(241, 18, 18, 0.2);
+}
+
+.team {
+    width: 247px;
+    height: 328px;
+    background: inherit;
+}
+
+.card-text {
+    font-size: 1.4rem;
+    font-weight: bolder
+}
+
+.contact {
+    background: #000000;
+}
+
+.footer__header {
+    color: #fff;
+}
+
+.hours {
+    background: url('../assets/images/alex-mihai-c-FWgYghZrVqU-unsplash\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact__desc {
+    text-transform: uppercase;
+    color: #F11212;
+}
+
+footer a {
+    color: #fff;
+}
+
+.contact__value {
+    color: #ffffff;
+}
