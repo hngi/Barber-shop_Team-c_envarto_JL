@@ -1,0 +1,587 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.one{
+    background: url("../assets/images/appointment container.png");
+    color: white;
+}
+.img2{
+    width: 20%;
+    margin-top: -50px;
+}
+.img3{
+    margin-top: -50px;
+}
+.two{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.two input{
+    width: 100%;
+    background: none;
+    height: 50px;
+    border: 1px solid white;
+    
+}
+.gin{
+    width: 100% !important;
+    height: 200px !important;
+}
+.first textarea{
+    width: 91.7%;
+    background: none;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+.third{
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.btn1{
+    border: none;
+    padding: 10px 25px;
+    background: white;
+    margin-bottom: 100px;
+}
+.img1{
+    width: 95%;
+    margin-left: 100px;
+}
+.img5{
+    width: 95%;
+}
+.hundred1{
+    background: url("../assets/images/rectangle22.png") center center/cover;
+    
+
+}
+.hundred2{
+    background: url("../assets/images/rectangle23.png")  center center/cover;
+}
+.hundred3{
+    background: url("../assets/images/rectangle24.png")  center center/cover;
+}
+.hundred4{
+    background: url("../assets/images/rectangle25.png")  center center/cover;
+
+}
+.hundred10{
+    text-align: center;
+    background: rgba(243, 243, 243, 0.88);
+    margin-top:800px;
+    width: 101.4%;
+    color: #162838;
+    margin-bottom: -2.7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.four{
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    
+}
+.four h4{
+    font-size: 50px;
+}
+ .five{
+    margin-top: 100px;
+} 
+.six{
+    padding: 100px 200px;
+}
+.seven{
+    background: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white !important;
+}
+.six form input{
+    border:  2px solid #FFFFFF !important;
+    background: white;
+}
+.six form textarea {
+    border:  2px solid #FFFFFF !important;
+    background: white;
+    height: 150px;
+}
+.btn5{
+    background: white;
+    padding: 10px 40px;
+    border-radius: 2px;
+    border: none;
+    color: black;
+    font-size: 25px;
+}
+.eight{
+    padding:200px 50px;
+    
+}
+.nine{
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn2{
+    width: 100%;
+}
+.ten{
+    text-align: center;
+    margin: 0px 200px;
+}
+.ten input{
+    width: 60%;
+    height: 50px;
+    padding-left: 10px;
+    background: #000000;
+    border: 2px solid white;
+    color: white;
+}
+.ten button{
+    width: 40%;
+    height: 50px;
+    background: #E52992;
+    border: none;
+    
+    
+}
+footer{
+    background: black;
+    margin-top: 100px;
+}
+.eleven{
+    margin: 30px 200px;
+}
+.eleven h5{
+    color: #E52992;
+}
+.eleven p{
+    color: white;
+}
+.twelve{
+    text-align: right;
+}
+.thirteen{
+    color: white;
+}
+
+.fourteen{
+    color: #E52992;
+}
+.fifteen{
+    text-align: right;
+}
+.sixteen{
+    /* margin-left: 470px; */
+   text-align: center;
+   
+}
+
+.last{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.seventeen{
+    background-color: #000000;
+}
+.eighteen{
+    background-color: white;
+    text-align: center;
+    color: #162838
+}
+.nineteen{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 150px 50px;
+}
+.twenty{
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+.twenty1{
+    padding: 200px 100px;
+    text-align: right;
+}
+.twenty1 h2{
+    margin-bottom: 30px;
+}
+.twenty1 p{
+    padding-left: 100px;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+.twenty5{
+    padding: 200px 100px;
+}
+.twenty5 h2{
+    margin-bottom: 30px;
+}
+.twenty5 p{
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+.twenty2{
+    color: #E52992;
+}
+.btn3{
+    background: #162838;
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.btn4{
+    background: #162838;
+    padding: 10px 40px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.twenty3{
+    text-align: center;
+}
+.twenty4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.twenty6{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+@media(max-width: 576px){
+    .first{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .six{
+        padding: 50px 50px;
+    }
+    .eleven{
+        margin: 30px 10px;
+    }
+    .four h4{
+        font-size: 3git 0px;
+    }
+    
+    .sixteen{
+        
+        text-align: center;
+       
+    }
+    .ten{
+        text-align: center;
+        margin: 0px 10px;
+    }
+    .img1{
+        margin-left:0px;
+        width: 100%;
+    }
+    .img5{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .twelve{
+        text-align: center;
+    }
+    .hundred{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .eight{
+        padding:100px 50px;
+        
+    }
+    .nineteen{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 150px 50px;
+    }
+    .eighteen{
+        background-color: white;
+        text-align: center;
+        color: #162838;
+        margin-bottom: 70px;
+        padding-top: 30px;
+    }
+    .img2{
+        width:30%;
+        margin-top: -100px;
+    }
+    .twenty1{
+        padding:50px 10px;
+        text-align: center;
+        
+    }
+    .twenty1 p{
+        padding-left: 10px;
+        line-height: 40px;
+        margin-bottom: 100px;
+    }
+    .twenty5{
+        padding: 50px 10px;
+    }
+    .six{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+    }
+    .twenty1 p{
+        padding-left: 100px;
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+    .twenty5 p{
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+    .hundred10{
+        text-align: center;
+        background: rgba(243, 243, 243, 0.88);
+        margin-top:500px;
+        width: 101.4%;
+        color: #162838;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .hundred1{
+        margin-bottom: 70px;
+    }
+    .hundred3{
+        margin-bottom: 70px;
+    }
+    
+    
+}
+
+@media (min-width: 577px) and (max-width:768px){
+    .first{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .six{
+        padding: 50px 50px;
+    }
+    .eleven{
+        margin: 30px 10px;
+    }
+    
+    .sixteen{
+    
+        text-align: center;
+       
+    }
+    .ten{
+        text-align: center;
+        margin: 0px 10px;
+    }
+    .img1{
+        margin-left:0px;
+        width: 100%;
+    }
+    .img5{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .twelve{
+        text-align: center;
+    }
+    .hundred{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .eight{
+        padding:100px 50px;
+        
+    }
+    .sixteen h5{
+        text-align: center;
+        
+        margin-left: 10px;
+    }
+    .sixteen{
+        display: block;
+    }
+    .nineteen{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 150px 50px;
+    }
+    .eighteen{
+        background-color: white;
+        text-align: center;
+        color: #162838;
+        margin-bottom: 70px;
+        padding-top: 30px;
+    }
+    .img2{
+        width:30%;
+        margin-top: -100px;
+    }
+    .twenty1{
+        padding:50px 10px;
+        text-align: center;
+        
+    }
+    .twenty1 p{
+        padding-left: 10px;
+        line-height: 40px;
+        margin-bottom: 100px;
+    }
+    .twenty5{
+        padding: 50px 10px;
+    }
+    .six{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+    }
+    
+    .twenty1 p{
+        padding-left: 100px;
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+    .twenty5 p{
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+
+    .hundred10{
+        text-align: center;
+        background: rgba(243, 243, 243, 0.88);
+        margin-top:500px;
+        width: 101.4%;
+        color: #162838;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .hundred1{
+        margin-bottom: 70px;
+    }
+    .hundred3{
+        margin-bottom: 70px;
+    }
+    
+}
+
+
+@media (min-width: 769px) and (max-width:1200px){
+    .first{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .six{
+        padding: 50px 50px;
+    }
+    .eleven{
+        margin: 30px 10px;
+    }
+   
+    .sixteen{
+       
+        text-align: center;
+       
+    }
+    .ten{
+        text-align: center;
+        margin: 0px 10px;
+    }
+    .img1{
+        margin-left:0px;
+        width: 100%;
+    }
+    .img5{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .twelve{
+        text-align: center;
+    }
+    .hundred{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .eight{
+        padding:100px 50px;
+        
+    }
+    .sixteen h5{
+        text-align: center;
+        
+        margin-left: 10px;
+    }
+    .sixteen{
+        display: block;
+    }
+    .nineteen{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 150px 50px;
+    }
+    .eighteen{
+        background-color: white;
+        text-align: center;
+        color: #162838;
+        margin-bottom: 70px;
+        padding-top: 30px;
+    }
+    .img2{
+        width:30%;
+        margin-top: -100px;
+    }
+    .twenty1{
+        padding:50px 10px;
+        text-align: center;
+        
+    }
+    .twenty1 p{
+        padding-left: 10px;
+        line-height: 40px;
+        margin-bottom: 100px;
+    }
+    .twenty5{
+        padding: 50px 10px;
+    }
+    .six{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+    }
+    .twenty1 p{
+        padding-left: 100px;
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+    .twenty5 p{
+        line-height: 20px;
+        margin-bottom: 100px;
+    }
+    .hundred1{
+        margin-bottom: 70px;
+    }
+    .hundred3{
+        margin-bottom: 70px;
+    }
+    
+    
+
+}
