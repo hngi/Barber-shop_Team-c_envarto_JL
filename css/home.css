@@ -1,0 +1,134 @@
+.img10{
+    width: 60%;
+}
+
+
+.active{
+    color: #E13B63;
+}
+.thirty{
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+}
+
+.thirty ul{
+    margin-left: 200px;
+}
+.thirty ul a{
+    color: white;
+    margin-left: 20px;
+}
+.thirty ul a:hover{
+    color: #E13B63;
+}
+.thirty1{
+    background-image: url(./assets);
+}
+
+.thirty2{
+    padding: 50px 20px ;
+}
+.thirty3{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.thirty6{
+    margin-top: 30px
+}
+.thirty4{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img1{
+    width: 100% !important;;
+    height: 600px !important;
+}
+
+.carousel-item .in-obj{
+    top: 50% !important;
+    left: 50% !important; 
+    position: absolute !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    
+}
+
+.carousel-caption h2{
+    color: #ffffff !important;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+
+.carousel-caption  p{
+    color: #ffffff !important;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: century gothic;
+
+}
+
+.carousel-caption button{
+    color: #ffffff !important;
+    padding: 10px 30px !important;
+    font-weight: bold;
+    background-color: #162838 !important;
+    outline: none;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+
+}
+
+
+
+@media(max-width:576px){
+    .thirty{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .thirty ul{
+        margin-left: 10px;
+    }
+    .thirty6{
+        margin-top: 10px
+    }
+    
+    
+}
+
+@media (min-width:577px) and (max-width:768px){
+    .thirty{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .thirty ul{
+        margin-left: 10px;
+    }
+    .thirty6{
+        margin-top: 10px
+    }
+    
+}
+
+
+
+@media (min-width:769px) and (max-width:1200px){
+    .thirty{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .thirty ul{
+        margin-left: 10px;
+    }
+    
+}
