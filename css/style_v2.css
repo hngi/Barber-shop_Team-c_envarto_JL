@@ -19,12 +19,15 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
+  position: relative;
 }
 
 nav > svg {
   height: 50px;
 }
-
+.menualt {
+  display: none;
+}
 .menu li {
   list-style: none;
   cursor: pointer;
@@ -753,6 +756,14 @@ nav > svg {
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
+  }
+  .menualt {
+    display: block;
+    position: absolute;
+    right: 10px;
+  }
+  .search {
+    margin-right: 40px;
   }
   .stylbody {
     grid-template-columns: repeat(2, 300px);
