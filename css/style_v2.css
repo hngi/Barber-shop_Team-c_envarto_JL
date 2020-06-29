@@ -256,7 +256,6 @@ nav > svg {
 }
 
 .bktxt {
-  height: 300px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -429,7 +428,6 @@ nav > svg {
   display: block;
   width: 120%;
   border-bottom: #e52992 2px solid;
-  border-bottom-width: 70%;
 }
 .contpn {
   margin-top: 20px;
@@ -750,4 +748,129 @@ nav > svg {
 
 .copy span {
   color: #e52992;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .stylbody {
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  nav {
+    padding: 20px 10px;
+  }
+  nav svg {
+    margin-left: -35px;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about img {
+    width: 100%;
+  }
+  .what {
+    margin-bottom: 30px;
+  }
+
+  .booknow {
+    flex-direction: column;
+  }
+  .bk:first-child {
+    margin-right: unset;
+    margin-bottom: 10px;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 230px 230px;
+    color: black;
+    row-gap: 100px;
+  }
+
+  .pricepic {
+    grid-template-columns: auto;
+    grid-template-rows: 200px 200px 200px;
+  }
+
+  .pricepic .onne {
+    grid-column: unset;
+  }
+  .pripoi {
+    padding-left: unset;
+  }
+  .prices {
+    padding: 10px;
+  }
+  .bapp input {
+    width: 100%;
+  }
+
+  .servimg {
+    grid-column: span 2;
+  }
+
+  .stylbody {
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 10px;
+  }
+
+  .appointment {
+    flex-direction: column;
+  }
+  .contrest {
+    text-align: center;
+  }
+  .contrest > span {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .test {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .testp {
+    min-height: 350px;
+    margin-top: 10px;
+  }
+
+  .contactus {
+    width: 90%;
+    padding: 0 20px;
+    padding-bottom: 60px;
+  }
+
+  .mail {
+    flex-direction: column;
+    height: unset;
+  }
+  .mail button {
+    padding: 20px 60px;
+    width: 100%;
+  }
+  .media {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hours {
+    text-align: center;
+  }
+  .social > div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  .social > div svg {
+    margin-right: unset;
+  }
 }
