@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "index_v2.html"
+  status = 200
+  force = true
