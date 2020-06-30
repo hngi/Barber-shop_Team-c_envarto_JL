@@ -162,7 +162,7 @@ span a i {
 }
 
 .box1 {
-    background: url('../assets/mostafa-meraji-FQlEeKnggUI-unsplash\ 1.png');
+    background: url('../../images/img/mostafa-meraji-FQlEeKnggUI-unsplash\ 1.png');
     height: 511px;
     width: 100%;
     background-repeat: no-repeat;
@@ -325,4 +325,22 @@ span a i {
     .mobile-nav{
         display: inline;
     }
+
+    .carousel-item img {
+        height: auto;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .box1 {
+        height: 250px;
+        background-position: center;
+    }
+    .mycenter{
+        margin-left: 1.5rem;
+    }
+    .mycenter2{
+        margin-left: 1rem;
+    }
+   
 }
