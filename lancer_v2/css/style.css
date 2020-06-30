@@ -74,7 +74,7 @@ nav > svg {
 }
 
 .navbody {
-  background: url('../images/v2/TOPNAVCONTAINER.png');
+  background: url('../../images/v2/TOPNAVCONTAINER.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -167,7 +167,7 @@ nav > svg {
 }
 
 .services .servimg {
-  background: url('../images/v2/TOPNAVCONTAINER.png');
+  background: url('../../images/v2/TOPNAVCONTAINER.png');
   height: 100%;
   width: auto;
   background-size: cover;
@@ -246,13 +246,13 @@ nav > svg {
   height: 300px;
 }
 .bkimg.one {
-  background: url('../images/v2/CN-2.png');
+  background: url('../../images/v2/CN-2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bkimg.two {
-  background: url('../images/v2/CN-1.png');
+  background: url('../../images/v2/CN-1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -331,19 +331,19 @@ nav > svg {
 
 .pricepic .onne {
   grid-column: span 2;
-  background: url('../images/v2/edgar-chaparro-m8UvH75I2lI-unsplash\ 1.png');
+  background: url('../../images/v2/edgar-chaparro-m8UvH75I2lI-unsplash\ 1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .pricepic .twoo {
-  background: url('../images/v2/john-arano-CCTCHXEsan8-unsplash\ 1.png');
+  background: url('../../images/v2/john-arano-CCTCHXEsan8-unsplash\ 1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .pricepic .tri {
-  background: url('../images/v2/neonbrand-tVv667jkTUc-unsplash\ 2.png');
+  background: url('../../images/v2/neonbrand-tVv667jkTUc-unsplash\ 2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -353,7 +353,7 @@ nav > svg {
   display: flex;
 }
 .bapp {
-  background: url('../images/v2/APPOINTMENTCONTAINER.png');
+  background: url('../../images/v2/APPOINTMENTCONTAINER.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -410,7 +410,7 @@ nav > svg {
   flex: 1;
 }
 .contup {
-  background: url('../images/v2/neonbrand-tVv667jkTUc-unsplash\ 1.png');
+  background: url('../../images/v2/neonbrand-tVv667jkTUc-unsplash\ 1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -496,50 +496,50 @@ nav > svg {
   top: -50px;
   left: 50%;
   transform: translateX(-50%);
-  background: url('../images/v2/Rectangle\ 23.png');
+  background: url('../../images/v2/Rectangle\ 23.png');
   height: 100px;
   width: 100px;
 }
 
 .stylbody > div:nth-child(1) .stylpic {
-  background: url('../images/v2/Rectangle\ 23.png');
+  background: url('../../images/v2/Rectangle\ 23.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .stylbody > div:nth-child(3) .stylpic {
-  background: url('../images/v2/Rectangle\ 23.png');
+  background: url('../../images/v2/Rectangle\ 23.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .stylbody > div:nth-child(2) .stylpic {
-  background: url('../images/v2/Rectangle\ 24.png');
+  background: url('../../images/v2/Rectangle\ 24.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .stylbody > div:nth-child(4) .stylpic {
-  background: url('../images/v2/Rectangle\ 22.png');
+  background: url('../../images/v2/Rectangle\ 22.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .stylbody > div:nth-child(5) .stylpic {
-  background: url('../images/v2/Rectangle\ 25.png');
+  background: url('../../images/v2/Rectangle\ 25.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .stylbody > div:nth-child(6) .stylpic {
-  background: url('../images/v2/Rectangle\ 23.png');
+  background: url('../../images/v2/Rectangle\ 23.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .testimonial {
-  background: url('../images/v2/Rectangle\ 28.png');
+  background: url('../../images/v2/Rectangle\ 28.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -583,14 +583,14 @@ nav > svg {
   margin-right: 20px;
 }
 .test .testp:nth-child(2) {
-  background: url('../images/v2/arrul-lin-sYhUhse5uT8-unsplash\ 1.png');
+  background: url('../../images/v2/arrul-lin-sYhUhse5uT8-unsplash\ 1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-right: 10px;
 }
 .test .testp:nth-child(3) {
-  background: url('../images/v2/etty-fidele-VNYCIbZju0o-unsplash\ 1.png');
+  background: url('../../images/v2/etty-fidele-VNYCIbZju0o-unsplash\ 1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -626,7 +626,7 @@ nav > svg {
 }
 
 .contact {
-  background: url('../images/v2/waldemar-brandt-aHZF4sz0YNw-unsplash\ 1.png');
+  background: url('../../images/v2/waldemar-brandt-aHZF4sz0YNw-unsplash\ 1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
