@@ -2,12 +2,11 @@
 
 Collaboration Instructions
 
-    1. fork the main repo to have a copy on your Github account
-    2. review the story on clubhouse board to get information on what you are to do
-    3. follow the available structure, when adding your file
-     e.g 
-        * "you are to work on the 3rd version of the temmplate"
-        * your html file would be called index_v3.html (on the root directory)
-        * css file would be called style_v3.css (in the css directory)
-        * javascript file would be called script_v3.js (in the js directory)
-    4. Partials directory contains code to be used in all version of the template, such as header and footer.
+    1. clone this repo to your PC
+    2. serve your asert files from the assets folder on the root 
+    3. create a new folder named "your_slack_name_variation_number" variation_numbet 
+    e.g variation_number for var 1 design = v1
+    4. create subfolders within your folder with a properlayout (all work is done within this folder)
+    5 Do not for any reason push changes to masterf.  branch. 
+    6. ater cloning the repo, work on a new branch called ""slackUsername_variation_number"
+    Once completed create  PR then wait, (Do not merge PRs
