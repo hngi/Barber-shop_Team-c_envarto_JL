@@ -753,6 +753,17 @@ nav > svg {
   color: #e52992;
 }
 
+.sidemenu {
+  z-index: 7;
+  position: fixed;
+  left: 100vw;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  transition: left ease 0.5s;
+}
+
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
@@ -761,6 +772,25 @@ nav > svg {
     display: block;
     position: absolute;
     right: 10px;
+  }
+
+  .times {
+    position: absolute;
+    top: 20px;
+    right: calc(15% + 10px);
+    color: black;
+  }
+  .secmenu {
+    width: 100%;
+    height: 100%;
+    color: #162838;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-right: calc(15% + 20px);
   }
   .search {
     margin-right: 40px;
@@ -826,6 +856,13 @@ nav > svg {
     grid-column: span 2;
   }
 
+  .serv {
+    grid-column: span 2;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
   .stylbody {
     grid-template-columns: repeat(1, 350px);
     grid-template-rows: 300px 300px 300px;
@@ -883,5 +920,9 @@ nav > svg {
   }
   .social > div svg {
     margin-right: unset;
+  }
+  .about {
+    width: 100%;
+    text-align: center;
   }
 }
