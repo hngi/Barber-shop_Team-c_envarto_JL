@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/"
-  to = "index_v2.html"
+  to = "./lancer_v2/index.html"
   status = 200
   force = true
