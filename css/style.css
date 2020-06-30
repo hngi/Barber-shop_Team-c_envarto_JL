@@ -5,12 +5,20 @@ html, body {width: auto!important; overflow-x: hidden!important}
     color: white;
 }
 
+.nav__wrapper {
+    max-width: 1440px;
+}
+
 .hove:hover {
     border-bottom: 3px solid white;
 }
 
 .carousel-item img {
-    height: 520px;
+    height: -webkit-fill-available;
+}
+
+.carousel-caption {
+    top: 40%;
 }
 
 .contains {
@@ -108,6 +116,40 @@ html, body {width: auto!important; overflow-x: hidden!important}
     text-align: center;
 }
 
+.about__container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.creative_barber__wrapper {
+    margin-top: 54px;
+}
+
+::-webkit-search-cancel-button,
+::-webkit-clear-button {
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23000" fill-opacity=".54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  height: 1.5rem;
+  margin-right: 0;
+  width: 1.5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+  color: white;
+  opacity: 1;
+  width: 14px;
+  height: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: .5rem;
+}
+::-webkit-calendar-picker-indicator:hover {
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.04);
+}
+
 @media screen and (max-width: 650px) {
     .title__underline {
         margin-bottom: 0px;
@@ -119,15 +161,12 @@ html, body {width: auto!important; overflow-x: hidden!important}
         font-size: 0.8rem;
         font-weight: 100;
     }
+    .first_input__wrapper{
+        margin-bottom: 3rem;
+    }
 }
 
 @media screen and (min-width: 650px) {
-    .about__wrapper {
-        padding: 0px 194px 0px 194px;
-    }
-    .date_input {
-        width: 50%;
-    }
     .contact__icon {
         margin-right: 20px;
     }
