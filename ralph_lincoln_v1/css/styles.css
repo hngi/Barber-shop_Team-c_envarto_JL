@@ -1,3 +1,5 @@
+html, body {width: auto!important; overflow-x: hidden!important} 
+
 .inputs::placeholder {
     font-weight: bold;
     color: white;
@@ -38,6 +40,98 @@
     transform: rotate(90deg);
 }
 
+.title__underline {
+    border: 2px solid #162838;
+    width: 30px;
+    margin-top: 2px;
+    margin-bottom: 54px;
+}
+
+.services__wrapper{
+    border: 1px solid;
+    padding: 0px;
+}
+
+.price__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 43px;
+    vertical-align: bottom;
+    color: #F11212;
+}
+
+.price-right {
+    float: right;
+}
+
+.service_text_container {
+    padding: 2rem;
+}
+
+.appointment__wrapper{
+    padding-top: 3rem;
+    margin-top: 124px;
+    background: url(/images/v1/APPOINTMENT\ CONTAINER.png);
+}
+
+.appointment__container {
+    padding-bottom: 3rem;
+}
+
+.btn__wrapper {
+    margin-top: 3rem;
+}
+
+.contact__header {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.bottom__image {
+    margin-bottom: 0px;
+}
+
+.contect__info {
+    display: inline-block;
+}
+
+.contact__icon {
+    vertical-align: top;
+}
+
+.contact__container {
+    text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+    .title__underline {
+        margin-bottom: 0px;
+    }
+    .services__wrapper{
+        border: 0px solid
+    }
+    .hero__btn {
+        font-size: 0.8rem;
+        font-weight: 100;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .about__wrapper {
+        padding: 0px 194px 0px 194px;
+    }
+    .date_input {
+        width: 50%;
+    }
+    .contact__icon {
+        margin-right: 20px;
+    }
+}
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
