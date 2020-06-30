@@ -164,6 +164,12 @@ html, body {width: auto!important; overflow-x: hidden!important}
     .first_input__wrapper{
         margin-bottom: 3rem;
     }
+    .order__first{
+        order: 1;
+    }
+    .order__second{
+        order: 2;
+    }
 }
 
 @media screen and (min-width: 650px) {
