@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/"
-  to = "./lancer_v2/index.html"
-  status = 200
-  force = true
