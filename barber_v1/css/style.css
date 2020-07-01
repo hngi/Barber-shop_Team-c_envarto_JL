@@ -359,6 +359,9 @@ footer{
 .thirty{
     margin-left: 200px !important;
     margin-right: 200px !important;
+    margin-bottom: -50px;
+    z-index: 9;
+    position: fixed !important;
 }
 
 .thirty ul{
@@ -371,6 +374,7 @@ footer{
 }
 .thirty ul a:hover{
     color: #ffffff;
+    border-bottom: 1px solid white;
 }
 .thirty1{
     background-image: url(./assets);
@@ -471,6 +475,90 @@ footer{
 
 
 }
+
+.navbar-light .navbar-nav .active > .navbar-light, .navbar-nav .nav-link .active, .navbar-light .navbar-nav .nav-link .show > .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+}
+
+.navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+
+ .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: white;
+    background-color: white !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background: none !important;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7) !important;
+    left: 0;
+    z-index: 1030;
+}
+
+
+
+
+
+
+.navbar-toggler {
+    /* height: 40px; */
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+} 
+
 
 .new7{
     width:100px;
