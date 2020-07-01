@@ -1,0 +1,213 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+.navbar {
+	background-color: #162838;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand {
+	min-height: 55px;
+	padding:  0 15px 5px;
+	margin-bottom: 15px;
+}
+.navbar-default .navbar-nav li a {
+	color: #FFFFFF;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active  {
+	color: #FFF;
+}
+
+#home {
+	background: url(image/Rectangle1.png) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 82px;
+}
+.padding {
+	padding: 30px 0;
+}
+.padding img {
+	width: 100%;
+}
+
+.container h3 {
+	text-align: center;
+	padding: 20px;
+	font-weight: lighter;
+}
+
+
+footer {
+	
+	width: 100%;
+	background-color: #000000;
+	padding: 5% 5% 10% 5%;
+	color: #FFF;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+.list ul {
+	list-style: none;
+}
+
+.wrapper{
+      display:grid;
+      grid-template-columns: 70% 30%;
+      /*
+      grid-column-gap:1em;
+      grid-row-gap:1em;
+      */
+      
+    }
+
+    .wrapper > div{
+      background:#eee;
+      padding:1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background:#ddd;
+
+    }
+    .wrapper img {
+    	size: 20px;
+    	
+    }
+
+}
+.wrapper img {
+	width: 100%
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button,
+input,
+textarea {
+    outline: none;
+}
+
+label {
+    font-weight: lighter;
+}
+
+/* CONTACT US */
+
+.row {
+    margin-top: 10px;
+}
+
+form {
+    padding: 10px 0 0 0;
+    color: #FFFFFF;
+}
+
+form p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: #333333;
+    padding-top: 35px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+form input,
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+form textarea {
+    height: 183px;
+    overflow: auto;
+    resize: none;
+}
+
+form button {
+    border: none;
+    padding: 20px 30px;
+    background: #808052;
+    color: white;
+    font-size: 25px;
+    float: center;
+    font-family: inherit;
+    margin-top: 19px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+
+    /* GRIDS */
+    .col-6 {
+        width: 100%;
+    }
+
+    /* CONTACT US FORM */
+
+    form p {
+        padding: 20px 0;
+        font-size: 14px;
+    }
+
+    form input,
+    textarea {
+        padding: 5px;
+    }
+
+    form textarea {
+        height: 65px;
+        overflow: auto;
+        resize: none;
+    }
+
+    form button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .text-small {
+        font-size: 22px;
+    }
+   
+
+}
