@@ -1090,6 +1090,7 @@ footer{
     .thirty{
         margin-left: 10px !important;
         margin-right: 10px !important;
+        z-index: 9;
     }
     .thirty ul{
         margin-left: 10px;
