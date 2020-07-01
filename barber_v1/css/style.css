@@ -68,7 +68,7 @@
     margin-right: 150px;
 }
 .one{
-    background: url("../assets/images/appointment container.png");
+    background: url("../images/appointment container.png");
     color: white;
     margin-top: 100px;
 }
@@ -125,19 +125,18 @@
     width: 95%;
 }
 .hundred1{
-    background: url("../assets/images/rectangle22.png") center center/cover;
+    background: url("../images/rectangle22.png") center center/cover;
     
 
 }
 .hundred2{
-    background: url("../assets/images/rectangle23.png")  center center/cover;
+    background: url("../images/rectangle23.png")  center center/cover;
 }
 .hundred3{
-    background: url("../assets/images/rectangle24.png")  center center/cover;
+    background: url("../images/rectangle24.png")  center center/cover;
 }
 .hundred4{
-    background: url("../assets/images/rectangle25.png")  center center/cover;
-
+    background: url("../images/rectangle25.png")  center center/cover;
 }
 .hundred10{
     text-align: center;
@@ -378,7 +377,7 @@ footer{
     border-bottom: 1px solid white;
 }
 .thirty1{
-    background-image: url(./assets);
+    background-image: url(../images/);
 }
 
 .thirty2{
@@ -460,7 +459,7 @@ footer{
     margin-right: 60px;
 }
 .new6{
-    background: url(../assets/images/CN-2.png )no-repeat center center cover;
+    background: url(../images/CN-2.png )no-repeat center center cover;
 }
 
 .carousel-caption button{
