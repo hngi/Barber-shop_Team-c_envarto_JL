@@ -254,6 +254,10 @@
     text-align: center;
     color: #000000;
     }
+
+    .fab{
+        cursor: pointer;
+    }
   /*------------------APPOINTMENT and contact----------*/
   .appointment-header{
       margin-top: 20px;
@@ -267,6 +271,7 @@
     padding: 15px 60px;
     font-size: 24px;
     margin-bottom: 20px;
+    margin-left: 8px;
     }
     #appoint:hover{
         color: gray;
@@ -286,8 +291,6 @@
     
     .form-container label{
     display: block;
-    width: 69.81px;
-    height: 21.94px;
     font-family: Century Gothic;
     font-style: normal;
     font-weight: bold;
@@ -299,49 +302,15 @@
     #messages{
         height: 160px;
     }
-
-    .Demmy{
-    width: 1440px;
-    height: 447px;
-    background: #F9F9F9;
-    margin-top: 5rem;
-    }
-    .Demmy p{
-    width: 1023px;
-    height: 84px;
-    font-family: Century Gothic;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.8);
-    margin-top: 3rem;
-    }
-    .Demmy h4{
-    width: 257px;
-    height: 40px;
-    font-family: Muli;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    color: #000000;
-    margin-top: 1.5rem;
-    }
-   
     .haircut-service{
-    width: 537px;
-    height: 410px;
+        height: 410px;
     background: #FFFFFF;
     border: 2px solid rgba(225, 59, 99, 0.3);
     box-sizing: border-box;
     border-radius: 10px;
-    
     }
     .hairstyling-service{
-    width: 537px;
-    height: 410px;
+        height: 410px;
     background: #FFFFFF;
     border: 2px solid rgba(225, 59, 99, 0.3);
     box-sizing: border-box;
@@ -356,7 +325,7 @@
     border-radius: 10px;
     }
     .our_best_services p{
-        font-family: Century Gothic;
+     font-family: Century Gothic;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -365,16 +334,9 @@
     color: rgba(0, 0, 0, 0.8);
     margin-top: 3rem;
     }
-    .our_best_services h5{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 48px;
-    color: #E13B63;
-    margin-top: 10px;
+    .card-body img{
+        cursor: pointer;
     }
-    
 /*------------Quotes---------------------------------*/
 
 .slideshow-container {
@@ -437,6 +399,7 @@
   .author {color: cornflowerblue;}
 
  /*---FOOTER -------*/
+ 
  @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .pad-below {
         padding-bottom: 10px;
