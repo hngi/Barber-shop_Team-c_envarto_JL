@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.nav-cont {
+  background-color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  color: #e13b63 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e13b63 !important;
+}
+
+.navbar-collapse .form-inline .form-group {
+  background-color: #000;
+  border: solid 2px #fff;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.navbar-collapse .form-inline .form-control {
+  background-color: transparent;
+  border: transparent;
+  border-radius: 0 !important;
+  height: inherit;
+  /* border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important; */
+}
+
+.navbar-collapse .form-inline .form-control:placeholder-shown {
+  background-color: #000 !important;
+}
+
+.navbar-collapse .form-inline .form-control:not(:placeholder-shown) {
+  background-color: #fff !important;
+}
+
+#search .fa {
+  font-size: 1.4rem;
+}
+
+.hero {
+  height: 80vh;
+  background: url("../images/v4/TOPNAV\ CONTAINER\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-text {
+  height: 100%;
+}
+
+.hero-text .header {
+  font-size: 2.5rem;
+  font-family: "Muli", sans-serif;
+}
+
+.hero .par {
+  font-size: 1.3rem;
+}
+
+.hero-text .cta {
+  background-color: #fff !important;
+}
+
+.hero-text .btn {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.about-text {
+  font-family: "Muli", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem !important;
+}
+
+#services {
+  background: #f9f9f9;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.service__text {
+  background-color: #162838;
+}
+
+.service__head {
+  background-color: #162838;
+}
+
+.service__img {
+  width: 75px;
+  height: 80px;
+}
+
+#top-services {
+  font-family: "Muli", sans-serif;
+  font-size: 1.2rem;
+}
+
+.top-cont {
+  background: #162838 !important;
+  height: max-content;
+}
+
+@media screen and(max-width:767px) {
+  .top-cont {
+    min-height: 380px !important;
+  }
+}
+
+.top-img {
+  transform: scale(1.1);
+}
+
+#appointment {
+  background-image: url("../images/v4/APPOINTMENT\ CONTAINER.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-origin: top center;
+}
+
+#appointment .form-control {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+#appointment .form-control::placeholder {
+  color: #fff !important;
+}
+
+.barber:hover {
+  filter: brightness(50%);
+}
+
+.carousel .item {
+  height: 300px;
+}
+
+.item img {
+  position: absolute;
+  object-fit: contain;
+  left: 0;
+  top: 0;
+  min-height: 300px;
+}
+
+.carousel .carousel-inner {
+  height: 500px
+}
+
+.carousel-inner .carousel-item img {
+  min-height: 200px;
+  object-fit: cover;
+}
+
+@media(max-width:768px) {
+  .carousel .carousel-inner {
+    height: auto;
+  }
+}
+
+/* .top-img {
+  width: 100px !important;
+  height: 100px !important;
+} */
+/* style="background: #162838;
+border: 1px solid rgba(22, 40, 56, 0.3);
+" */
