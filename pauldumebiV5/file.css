@@ -6,9 +6,6 @@
    font-family: "Century Gothic";
    overflow-x: hidden;
 }
-.navbar {
-   z-index: 1;
-}
 .navbar-bg {
    background: black;
 }
@@ -16,7 +13,7 @@
    font-family: "Poppins";
    font-weight: bold;
    font-size: 20px;
-   color: white;
+   color: white !important;
 }
 .nav-item {
    padding: 0 1rem;
@@ -48,7 +45,7 @@ h2 {
 #Africa-top-barbershop h2 {
    font-family: "Poppins";
    font-weight: bold;
-   font-size: 55px;
+   font-size: 3.4375rem;
 }
 #Africa-top-barbershop > p {
    font-size: 1.375rem;
@@ -68,11 +65,11 @@ h2 {
 .About-us-section >p {
    margin-top: 2rem;
 }
-.About-us img {
+/* .About-us img {
    width: 32.399375rem;
    height: 23.02125rem;
    border-radius: 3.68731px 36.8731px 36.8731px 36.8731px;
-}
+} */
 #Read-more-button {
    width: 16.125rem;
    height: 5rem;
@@ -87,7 +84,7 @@ h2 {
    #Africa-top-barbershop {
       position: absolute;
       left:14rem;
-      top: 18rem;
+      top: 12rem;
    }
    .Email-group {
       display: grid;
@@ -242,7 +239,7 @@ h2 {
    #Africa-top-barbershop {
       position: absolute;
       left:6rem;
-      top: 18rem;
+      top: 10rem;
    }
 }
 
@@ -250,12 +247,16 @@ h2 {
    #Africa-top-barbershop {
       position: absolute;
       left: 0rem;
-      top: 15rem;
+      top: 7rem;
+      color: white;
    }
    .About-us-section {
       margin-left: 0rem;
       text-align: center;
    }    
+   #carouselV5 img {
+      height: 20rem;
+   }
    .Email-group {
       display: flex;
       flex-wrap: wrap;
