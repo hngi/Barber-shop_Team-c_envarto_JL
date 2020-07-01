@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.dark-color{
+  background-color: #162838;
+}
+.dark-text{
+  color: #162838
+}
+.pink-color{
+  color: #E52992;
+}
+.bg-pink{
+  color: #E52992;
+}
+.grey-bg{
+  background-color: rgba(196, 196, 196, 0.15);
+}
+.bold{
+  font-weight: bold;
+}
+
+body{
+  padding-top: 5rem;
+}
+.navbar .nav-link{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.active{
+  color: #E52992;
+}
+
+a.semi-pink-hover{
+  transition: all ease-in 0.3s !important; 
+}
+a.semi-pink-hover:hover{
+  color: #E52992 !important;
+}
+button.pink-hover{
+  transition: all ease-in 0.3s !important;
+}
+button.pink-hover:hover{
+  background-color: #E52992 !important;
+  color: #fff !important;
+}
+.jumbotron-bg{
+  background-image: url('/images/v3/Rectangle\ 1.png');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.form-bg{
+  background-color: rgba(22,40,56, 0.5);
+}
+
+#search-input {
+  height: 40px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  background-color: transparent !important;
+  width: 100px !important;
+  color: white;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#search-input:active {
+  border-color: white !important;
+  border-right: none !important;
+}
+
+#search-input:focus {
+  border-color: white !important;
+  border-right: none !important;
+}
+
+#search-input::placeholder {
+  color: white;
+  font-size: 12px;
+}
+
+#search-icon {
+  border-top-right-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  color: white;
+}
+
+#search-icon:hover {
+  background-color: #E52992 !important;
+}
+
+#search-icon:active {
+  background-color:  #E52992 !important;
+  box-shadow: none !important;
+}
+
+#search-icon:focus {
+  background-color: gray !important;
+  box-shadow: none !important;
+}
+
+.about-img {
+  background-image: url('/images/v3/Rectangle\ 40.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.limit {
+  width: 350px;
+  height: 525px;
+  max-height: 300px;
+  overflow: hidden;
+}
+.limit img{
+  width: 100%;
+  height: 100%;
+}
+.img-round {
+  height: 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-round > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.customer input.form-control, textarea.form-control{
+  background-color: #162838;
+  color: #ffff;
+  border: 1px solid #ffff;
+}
+input.form-control.dark-input{
+  background-color: #000000;
+  color: #ffff;
+}
+.btn-subscribe {
+  border-radius: 2px !important;
+  background-color: #162838 !important;
+  border-color: rgba(22, 40, 56, 0.5) !important;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-subscribe:focus {
+  border: 2px solid rgba(22, 40, 56, 0.5) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 3px rgba(46, 45, 45, 0.6) !important;
+}
+
+.btn-subscribe:active {
+  border: 2px solid rgba(22, 40, 56, 0.5) !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 3px rgba(46, 45, 45, 0.6) !important;
+}
+
+.subscribe-placeholder::placeholder {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}

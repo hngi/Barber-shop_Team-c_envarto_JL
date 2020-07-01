@@ -1,0 +1,376 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {width: auto!important; overflow-x: hidden!important}
+/*-Nav------*/
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.hero{
+  background-image: url(../../images/v5/TOPNAV%20CONTAINER.png);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.hero-text{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero-text h1{
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 82px;
+text-align: center;
+color: #FFFFFF;
+}
+.hero-text p{
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.2em;
+color: #FFFFFF;
+}
+/*---header button----*/
+.hero-text .btn-hero{
+margin-top: 20px;
+background: #E13B63;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+padding: 15px 50px;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+/*---about-us--*/
+.about-us{
+  display: flex;
+  align-items: center;
+}
+.about-text{
+margin-left: 3%;
+}
+.about-text h2 {
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+color: #000000;
+}
+.about-text p{
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+letter-spacing: 0.02em;
+color: rgba(0, 0, 0, 0.8);
+}
+
+.about-text .btn-abt{
+background: #E13B63;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* sevices */
+
+#services{
+    /* width: 100%; */
+    /* height: 100vh; */
+    background: #F9F9F9;
+}
+.card-feature{
+    height: 250px;
+    border: 2px solid rgba(225, 59, 99, 0.3);
+}
+
+.card-icon{
+    width: 45px;
+    margin: 0 auto;
+}
+.card-para,
+.card-paragraph{
+    font-size: 13px;
+}
+.pink{
+    color: #E13B63;
+}
+.card-feature-1{
+    width: 280px;
+    height: 150px;
+    border: 1px solid #C4C4C4;
+}
+
+.card-paragraph span{
+    color: #E13B63;
+}
+.btn-pink{
+    background-color: #E13B63;
+    color: #eeee;
+}
+.word{
+    font-size: 20px;
+}
+.appoint-image img{
+    width: 25rem;
+    height: 450px;
+}
+
+/*--------------------------------------------------------------
+# Slide Quotes
+--------------------------------------------------------------*/
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background:#F9F9F9;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #F9F9F9;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: #F9F9F9;;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background:#F9F9F9;;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color:#E13B63;
+  color: black;
+  padding: 12px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+input[type=submit]:hover {
+  background-color:grey;
+}
+/* Style the container/contact section */
+.container2 {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+/* Create two columns that float next to eachother */
+.column {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.column1 {
+  float:left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  padding: 0px 0 30px 0;
+  float: center;
+  font-size: 0px;
+  position: relative;
+  background: black;
+}
+
+
+#footer .footer-newsletter {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 0px;
+  
+  text-align: left;
+}
+
+#footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px 3px 20px;
+  background:#E13B63;;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 0px 0px 0;
+  box-shadow: 0px px 0px rgba(0, 0, 0, 0);
+}
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: gray;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Media Queries */
+@media only screen and (max-width: 540px) {
+  
+  .search{
+    display: none;
+  }
+  .about-us {
+    flex-direction: column-reverse;
+  }
+  .about-image {
+    width: 100% !important;
+    margin-left: auto;
+  }
+  .about-text {
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+  }
+  .hero-text{
+    top: 60%;
+  }
+  .hero-text h1{
+    font-size: 28px;
+  }
+  .hero-text p{
+    font-size: 16px;
+  }
+  input[type=submit] {
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  width:80px;
+  height:60px;
+}
+}
+
+/* Screen size above 540px and below 769px */
+@media only screen and (max-width: 768px) {
+  .conatiner {
+    margin-top: 100px;
+  }
+  .about-image img {
+    width: 100%;
+  }
+}
+

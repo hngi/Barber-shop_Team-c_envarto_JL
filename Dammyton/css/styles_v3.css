@@ -1,0 +1,346 @@
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 90px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #E52992;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 5px 13px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #ffffff;
+    color: black;
+    /* Add a dark-grey background on hover */
+}
+
+.mobile-nav{
+    display:none
+}
+li.nav-item {
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+.containers {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containers:hover .image {
+    opacity: 0.9;
+}
+.containers:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+
+/* 3rd section */
+.main-box {
+    text-align: center;
+    justify-content: center;
+}
+
+.main-box img {
+    height: 50px;
+}
+
+.main-box h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0px;
+    letter-spacing: 0.02em;
+    color: #162838;
+}
+
+.main-box p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+}
+
+.card-img-overlay {
+    display: flex;
+    align-items: flex-end;
+}
+
+.large-box {
+    background: #FFFFFF;
+    border: 1.5px solid #E52992;
+    box-sizing: border-box;
+    width: 281px;
+    height: 95px;
+}
+
+.large-box h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.large-box p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+    letter-spacing: 0.02em;
+    color: #E52992;
+}
+
+span a i {
+    color: #E52992;
+}
+
+.stylist-box {
+    padding: 5px 0px;
+}
+
+.box1 {
+    background: url('../../images/img/mostafa-meraji-FQlEeKnggUI-unsplash\ 1.png');
+    height: 511px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 {
+    background: #162838;
+}
+
+.box2 h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.box-dark {
+    width: 308px;
+    padding: 10px;
+    height: 500px;
+    background: #162838;
+    border: 2px solid #E52992;
+    box-sizing: border-box;
+}
+
+.box-dark img {
+    width: 282px;
+    height: 204px;
+}
+
+.box-dark span img {
+    width: 15px;
+    height: auto;
+}
+
+.box-dark span {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.box-dark h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+}
+
+.box-dark p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    height: 55px;
+    letter-spacing: 0.02em;
+
+}
+
+.box-dark a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    background: #E52992;
+    width: 182px;
+    height: 50px;
+}
+
+.box3 input.form-control {
+    background: transparent;
+    border: 0;
+    padding-left: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 0;
+}
+
+.box3 input::placeholder,
+.box3 textarea::placeholder {
+    color: #FFFFFF;
+
+}
+
+.box3 textarea {
+    background: transparent;
+    border: 0;
+    padding-left: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 0;
+}
+
+.box3 a.btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    background: #E52992;
+    height: 50px;
+}
+
+.box3 .input-group-prepend i {
+    border-bottom: 1px solid #fff;
+}
+
+/* Mobile responsiveness */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .middle {
+        font-size: 6px;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .middle {
+        font-size: 6px;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .text {
+        color: white;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width:780px){
+    .desktop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: inline;
+    }
+
+    .carousel-item img {
+        height: auto;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .box1 {
+        height: 250px;
+        background-position: center;
+    }
+    .mycenter{
+        margin-left: 1.5rem;
+    }
+    .mycenter2{
+        margin-left: 1rem;
+    }
+   
+}
