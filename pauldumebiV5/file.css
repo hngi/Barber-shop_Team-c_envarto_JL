@@ -6,6 +6,11 @@
    font-family: "Century Gothic";
    overflow-x: hidden;
 }
+.scrolling-box {
+   display: block;
+   height: 100vh;
+   scroll-behavior: smooth;
+ }
 header {
    height: px;
    position: fixed;
@@ -18,7 +23,7 @@ header {
 }
 .nav-link {
    font-family: "Poppins";
-   font-weight: bold;
+   /* font-weight: bold; */
    font-size: 20px;
    color: white !important;
 }
@@ -255,6 +260,9 @@ h2 {
 } */
 
 @media screen and (max-width: 540px) {
+   /* header {
+     position: static;
+   } */
    #Africa-top-barbershop {
       margin: -2rem 0 0 0;
    }
@@ -293,3 +301,5 @@ h2 {
       order: 1;
    }
 } */
+
+
