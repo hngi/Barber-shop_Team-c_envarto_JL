@@ -47,6 +47,7 @@ h2 {
 
 .image-wrapper {
   position: relative;
+  margin-top: 5rem;
 }
 
 .image-wrapper img {
