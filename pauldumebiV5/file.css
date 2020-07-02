@@ -235,6 +235,7 @@ h2 {
    display: grid;
    grid-template-columns: 60% 35%; 
    grid-column-gap: 2rem;
+   color: white;
 }
 .footer-logo {
    width: 20%;
@@ -245,6 +246,7 @@ h2 {
    font-weight: bold;
    font-size: 18px;
    margin: 5rem 0 3rem 0;
+   color: white;
 }
 /* @media only screen and (max-width: 900) {
    #Africa-top-barbershop {
