@@ -6,12 +6,24 @@
    font-family: "Century Gothic";
    overflow-x: hidden;
 }
+.scrolling-box {
+   display: block;
+   height: 100vh;
+   scroll-behavior: smooth;
+ }
+header {
+   height: px;
+   position: fixed;
+   float: left;
+   width: 100%;
+   z-index: 1;
+}
 .navbar-bg {
    background: black;
 }
 .nav-link {
    font-family: "Poppins";
-   font-weight: bold;
+   /* font-weight: bold; */
    font-size: 20px;
    color: white !important;
 }
@@ -31,15 +43,18 @@ button, .btn-button {
    color: white;
    border-radius: 2px;
    border: none;
+   font-weight: 600;
+   font-family: "Poppins";
+   font-size: 21px;
 }
 h2 {
    font-family: Muli;
-   font-weight: 600;
    font-size: 2.5rem;
 }
 
 .image-wrapper {
   position: relative;
+  margin-top: 5rem;
 }
 
 .image-wrapper img {
@@ -56,11 +71,6 @@ h2 {
   font-size: 2em;
   color: white;
 }
-/* #Africa-top-barbershop {
-   left: 25rem;
-   top: 17rem;
-   position: absolute;
-} */
 #Africa-top-barbershop h2 {
    font-family: "Poppins";
    font-weight: bold;
@@ -71,8 +81,6 @@ h2 {
 }
 #Africa-top-barbershop button {
    width: 18.75rem;
-   font-weight: bold;
-   font-size: 18px;
 }
 .About-us-container {
    margin-top: 5rem;
@@ -87,7 +95,6 @@ h2 {
 
 #Read-more-button {
    width: 16.125rem;
-   height: 5rem;
    margin-top: 2.5rem;
 }
 .Our-best-services-bg {
@@ -120,7 +127,7 @@ h2 {
 }
 .pricing-body-header {
    margin: 1.5rem 0 2.5rem;
-   font-family: Muli;
+   font-family: "Muli";
    font-weight: 600;
    font-size: 32px;
 }
@@ -139,12 +146,9 @@ h2 {
 .book-now {
    width: 14.3125rem;
    margin: 3.125rem 1.25rem;
-   font-family: Poppins;
-   font-weight: bold;
-   font-size: 24px;
 }
 
-.fa {
+.fa-social {
    color: #E13B63;
    margin-bottom: 2rem;
    border: 2px #E13B63 solid;
@@ -158,7 +162,7 @@ h2 {
 }
 
 .creative-barber-body-header {
-   font-family: Muli;
+   font-family: "Muli";
    font-size: 32px;
    color: #E13B63;
 }
@@ -186,8 +190,6 @@ h2 {
 }
 .Appointment-input {
    height: 5rem;
-   font-family: "Poppins";
-   font-weight: bold;
    font-size: 24px;
 }
 .Get-appointment {
@@ -196,9 +198,6 @@ h2 {
 .appointment-submitBtn {
    width: 16.125rem;
    margin-top: 3.125rem;
-   font-family: "Poppins";
-   font-weight: bold;
-   font-size: 24px;
 }
 .Reviews img {
    margin: 3.125rem 0 3.125rem 0;
@@ -245,8 +244,14 @@ h2 {
    font-family: "Poppins";
    font-weight: bold;
    font-size: 18px;
-   margin: 5rem 0 3rem 0;
    color: white;
+}
+.myBtn {
+   padding: 1rem;
+   background: #E13B63;
+   border-radius: 50%;
+   float: right;
+   margin:-4rem 1.5rem 3rem 0;
 }
 /* @media only screen and (max-width: 900) {
    #Africa-top-barbershop {
@@ -261,6 +266,9 @@ h2 {
 } */
 
 @media screen and (max-width: 540px) {
+   /* header {
+     position: static;
+   } */
    #Africa-top-barbershop {
       margin: -2rem 0 0 0;
    }
@@ -298,6 +306,9 @@ h2 {
       -webkit-order: 1;
       order: 1;
    }
-} */
+   .myBtn {
+      margin:-9rem 1rem 0 0;
+   }
+} 
 
 
