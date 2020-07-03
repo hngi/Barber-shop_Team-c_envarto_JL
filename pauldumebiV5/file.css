@@ -148,7 +148,7 @@ h2 {
    margin: 3.125rem 1.25rem;
 }
 
-.fa {
+.fa-social {
    color: #E13B63;
    margin-bottom: 2rem;
    border: 2px #E13B63 solid;
@@ -244,8 +244,14 @@ h2 {
    font-family: "Poppins";
    font-weight: bold;
    font-size: 18px;
-   margin: 5rem 0 0 0;
    color: white;
+}
+.myBtn {
+   padding: 1rem;
+   background: #E13B63;
+   border-radius: 50%;
+   float: right;
+   margin:-4rem 1.5rem 3rem 0;
 }
 /* @media only screen and (max-width: 900) {
    #Africa-top-barbershop {
@@ -300,6 +306,9 @@ h2 {
       -webkit-order: 1;
       order: 1;
    }
-} */
+   .myBtn {
+      margin:-9rem 1rem 0 0;
+   }
+} 
 
 
