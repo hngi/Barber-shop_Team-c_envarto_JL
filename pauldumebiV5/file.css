@@ -1,0 +1,314 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   font-family: "Century Gothic";
+   overflow-x: hidden;
+}
+.scrolling-box {
+   display: block;
+   height: 100vh;
+   scroll-behavior: smooth;
+ }
+header {
+   height: px;
+   position: fixed;
+   float: left;
+   width: 100%;
+   z-index: 1;
+}
+.navbar-bg {
+   background: black;
+}
+.nav-link {
+   font-family: "Poppins";
+   /* font-weight: bold; */
+   font-size: 20px;
+   color: white !important;
+}
+.nav-item {
+   padding: 0 1rem;
+}
+.search {
+   font-family: "Poppins";
+   border-radius: 50px;
+   font-weight: bold;
+   font-size: 14px;
+   color: white;
+}
+button, .btn-button {
+   background: #E13B63;
+   height: 5rem;
+   color: white;
+   border-radius: 2px;
+   border: none;
+   font-weight: 600;
+   font-family: "Poppins";
+   font-size: 21px;
+}
+h2 {
+   font-family: Muli;
+   font-size: 2.5rem;
+}
+
+.image-wrapper {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.image-wrapper figcaption {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+#Africa-top-barbershop h2 {
+   font-family: "Poppins";
+   font-weight: bold;
+   font-size: 3.4375rem;
+}
+#Africa-top-barbershop > p {
+   font-size: 1.375rem;
+}
+#Africa-top-barbershop button {
+   width: 18.75rem;
+}
+.About-us-container {
+   margin-top: 5rem;
+}
+.About-us-section {
+   margin-top: 3rem;
+   margin-left: 4rem;
+}
+.About-us-section >p {
+   margin-top: 2rem;
+}
+
+#Read-more-button {
+   width: 16.125rem;
+   margin-top: 2.5rem;
+}
+.Our-best-services-bg {
+   background: #F9F9F9;
+   margin-top: 5rem;
+}
+
+/* @media only screen and (max-width: 1200px) {
+  
+   .Email-group {
+      display: grid;
+      grid-template-columns: 65% 30%; 
+   }
+}  */
+.Our-best-services {
+   padding: 3.125rem 0 3.125rem 0;
+}
+
+.best-services-body {
+   padding: 3.375rem;
+}
+.haircut {
+   margin: 2.5rem;
+}
+.Our-best-services-header {
+   margin-bottom: 2.5rem;
+}
+.pricing-header {
+   margin: 5rem 0 3.125rem;
+}
+.pricing-body-header {
+   margin: 1.5rem 0 2.5rem;
+   font-family: "Muli";
+   font-weight: 600;
+   font-size: 32px;
+}
+.beard-shaving-container {
+   margin: 3.125rem 0 5rem;
+}
+.beard-shaving-body {
+   padding: 4rem !important;
+}
+.card-body span {
+   float: right;
+}
+.card-body-text-pricing {
+   padding-bottom: 1.5rem;
+}
+.book-now {
+   width: 14.3125rem;
+   margin: 3.125rem 1.25rem;
+}
+
+.fa-social {
+   color: #E13B63;
+   margin-bottom: 2rem;
+   border: 2px #E13B63 solid;
+   border-radius: 50%;
+   padding: 5px;
+   margin: 0 0.5rem;
+}
+
+.Our-creative-barber-section {
+   padding: 2rem 0 2rem 0;
+}
+
+.creative-barber-body-header {
+   font-family: "Muli";
+   font-size: 32px;
+   color: #E13B63;
+}
+.creative-barber-header {
+   margin: 2rem 0 4rem 0;
+}
+
+.dot {
+   cursor: pointer;
+   height: 10px;
+   width: 10px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+   margin: 20px 0px;
+ }
+ 
+ .active, .dot:hover {
+   background-color: #717171;
+ }
+.form-details {
+   margin: 1rem 0 1rem 0;
+}
+.Appointment-input {
+   height: 5rem;
+   font-size: 24px;
+}
+.Get-appointment {
+   margin: 5rem 0 3.125rem 0;
+}
+.appointment-submitBtn {
+   width: 16.125rem;
+   margin-top: 3.125rem;
+}
+.Reviews img {
+   margin: 3.125rem 0 3.125rem 0;
+}
+.reviews-text {
+   padding: 0 2rem 0 2rem;
+}
+.Reviews-dot-group {
+   margin: 5.25rem 0 3rem 0;
+}
+.Contact-Us {
+   margin-bottom: 5rem;
+}
+.Contact-Us-header {
+   margin: 3rem 0 3rem 0;
+}
+.Contact-Us img {
+  margin-top: 3.5rem;
+}
+.footer-links {
+   margin-top: 5rem;
+}
+.social-media-header {
+   font-family: "Poppins";
+   font-weight: bold;
+   font-size: 22px;
+}
+.Email-group {
+   display: grid;
+   grid-template-columns: 70% 20%; 
+   grid-column-gap: 2rem;
+}
+.social-media-links {
+   display: grid;
+   grid-template-columns: 60% 35%; 
+   grid-column-gap: 2rem;
+   color: white;
+}
+.footer-logo {
+   width: 20%;
+   float: right;
+}
+.copyright {
+   font-family: "Poppins";
+   font-weight: bold;
+   font-size: 18px;
+   color: white;
+}
+.myBtn {
+   padding: 1rem;
+   background: #E13B63;
+   border-radius: 50%;
+   float: right;
+   margin:-4rem 1.5rem 3rem 0;
+}
+/* @media only screen and (max-width: 900) {
+   #Africa-top-barbershop {
+      left:0rem;
+      top: 2rem;
+   }
+   .social-media-links {
+      display: grid;
+      grid-template-columns: 50% 35%; 
+      grid-column-gap: 2rem;
+   }
+} */
+
+@media screen and (max-width: 540px) {
+   /* header {
+     position: static;
+   } */
+   #Africa-top-barbershop {
+      margin: -2rem 0 0 0;
+   }
+   .About-us-section {
+      margin-left: 0rem;
+      text-align: center;
+   }    
+   #carouselV5 img {
+      height: 20rem;
+   }
+   .Email-group {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   .best-services-body-first {
+      margin-bottom: 5rem !important;
+   }
+   .social-media-links {
+      display: grid;
+      grid-template-columns: 53% 35%; 
+      grid-column-gap: 2rem;
+   }
+   .Get-appointment-form {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+  
+    .Get-appointment-img {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      -ms-flex-order: 1;
+      -webkit-order: 1;
+      order: 1;
+   }
+   .myBtn {
+      margin:-9rem 1rem 0 0;
+   }
+} 
+
+
