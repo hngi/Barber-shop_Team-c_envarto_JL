@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Lato, "sans-serif";
+}
+
+/*---------NAVIGATION-------------*/
+.navbar-nav{
+    font-weight: 600;
+}
+.navi ul{
+    margin-right: 20px;
+}
+.navi ul a{
+    color: white !important;
+}
+.navi ul a:hover{
+    border-bottom: 3px solid white;
+}
+.navbar-nav .active{
+    border-bottom: 3px solid white;
+}
+
+  /*----------HERO------------*/
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .carousel-item .in-obj{
+    top: 50% !important;
+    left: 50% !important; 
+    position: absolute !important;
+    transform: translate(-20%, -20%) !important;
+    text-align: center !important;
+    
+}
+.carousel-caption h2{
+    color: #ffffff !important;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+.carousel-caption  p{
+    color: #ffffff !important;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+}
+.carousel-item img{
+    height: 540px;
+    overflow: hidden;
+}
+
+.carousel-caption button{
+    color: #000000 !important;
+    padding: 10px 30px !important;
+    font-weight: bold;
+    font-style: normal;
+    outline: none !important;
+    border: 0;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+
+@media(max-width:576px){
+    .carousel-item img{
+        height: 260px;
+        overflow: hidden;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+    .carousel-caption h2{
+        margin-top: 280px;
+        font-size: 18px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+    .carousel-caption button{
+        font-size: 10px;
+        color: #000000 !important;
+        padding: 10px 20px !important;
+        font-weight: bold;
+        background-color: white!important;
+        outline: none !important;
+        border: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+}
+
+
+/*------------ABOUT US-----------*/
+.aboutuspara{
+    margin-top: 120px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.title::before{
+    content: '';
+    background: #162838;
+    height: 4px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #162838;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    display: block;
+    color: white;
+    transform: translateY(8px);
+}
+  @media only screen and (min-width: 768px) {
+    .aboutuspara{
+        width: 60%;
+    }
+  }
+  /*-----------SERVICES------*/
+ /*-----------TEAM------*/
+
+ /*-----------Appointment------*/
+  .appointmentcl{
+    background: url("../images/v1/APPOINTMENT\ CONTAINER.png");
+    color: white;
+    margin-top: 100px;
+}
+.container textarea{
+    width: 91.7%;
+    background: none;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+.here{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.here label{
+    text-align: left;
+    font-weight: 500;
+    font-style: normal;
+}
+  .inp {    
+    width: 100%;
+    background: none;
+    height: 50px;
+    border: 1px solid white;
+}
+.btn-cont{
+        font-size: 18px;
+        color: #000000 !important;
+        padding: 10px 25px !important;
+        font-weight: bold;
+        background-color: white!important;
+        outline: none !important;
+        border: 0;
+        border-radius: 2px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-decoration: none;
+}
+/*-----------CONTACT US-----*/
+#contact p{
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+}
+.contactuss{
+    margin-bottom: 25px;
+}
+@media(min-width:768px){
+    #contact p{
+        text-align: start;
+    }
+}
+  /*-----------FOOTER------*/
+  @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .pad-below {
+        padding-bottom: 10px;
+    }
+    .pad-below-2 {
+        margin-bottom: 27px;
+    }
+    .mag-below-3 {
+        margin-bottom: 40px;
+    }
+    .mag-below {
+        margin-bottom: 10px;
+    }
+}
